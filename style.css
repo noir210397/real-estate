@@ -142,6 +142,13 @@ margin-block: 1em;
     color: var(--red);
     margin-top: .4em;
 }
+.solid>a{
+    color: var(--red);
+    text-decoration: none;
+}
+.solid>a:visited{
+    color: var(--red);
+}
 .sec-3>span{
 margin-bottom: 2em;
 }
