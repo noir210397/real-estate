@@ -91,3 +91,8 @@ let animateSlide=()=>{
     }
 }
 setInterval(animateSlide,2000)
+const profile=document.querySelector('.profile')
+profile.addEventListener('click',()=>{
+    // window.location.href="./form/index.html"
+    window.location.replace("./form/index.html")
+})
