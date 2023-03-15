@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <script defer src="form.js"></script>
     <title>Sign In</title>
 </head>
 <body>
@@ -13,22 +14,22 @@
         <p class="head">AjeborProperty</p>
         <form action="">
             <p class="form-header">Welcome Back!</p>
-            <label for=""><input type="text" placeholder="Email Address*"></label>
-            <label for=""><input type="text" placeholder="Password*"></label>
-            <p class="password">Forgotten password?</p>
-            <button>Log In</button>
+            <div class="form-control"><label for="email-address"><input type="email" required placeholder="Email Address*" id="email-address"></label></div>
+            <div class="form-control"><label for="password"><input type="password" required placeholder="Password*" id="password"></label><span id="password-span"><i class="fa-solid fa-eye"></i></span></div>
+            <a href="/forgot-password/index.html"><p class="password">Forgotten password?</p></a>
+            <button id="submit-button">Log In</button>
             <p class="sign-in">Sign in with</p>
             <button class="google-button"><i class="fa-brands fa-google"></i>oogle</button>
             <div class="line1"><p class="line">or</p></div>
             
-            <div><a href=""><p class="small-button">create a new account</p></a></div>
+            <div><a href="/create-account/account.html"><p class="small-button">create a new account</p></a></div>
             <!-- <button class="small-button"></button> -->
         </form>
     </div>
     <div class="fixed">
-        <span ><i class="fa-solid fa-eye"></i><span>Explore</span></span>
-        <span><i class="fa-solid fa-pen-nib"></i><span>Deals</span></span>
-        <span class="red-color"><i class="fa-solid fa-user red-color"></i><span>Profile</span></span>
+        <span class="home"><i class="fa-solid fa-eye"></i><span>Explore</span></span>
+        <span class="deals"><i class="fa-solid fa-pen-nib"></i><span>Deals</span></span>
+        <span class="profile red-color"><i class="fa-solid fa-user red-color"></i><span>Profile</span></span>
     </div>
 </body>
 </html>

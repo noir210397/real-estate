@@ -96,3 +96,8 @@ profile.addEventListener('click',()=>{
     // window.location.href="./form/index.html"
     window.location.replace("./form/index.html")
 })
+const deals=document.querySelector('.deals')
+deals.addEventListener('click',()=>{
+    // window.location.href="./form/index.html"
+    window.location.replace("./deals/deals.html")
+})
