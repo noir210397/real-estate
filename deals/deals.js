@@ -49,7 +49,7 @@ const all=[
         bedRoom:"2",
         bathRoom:"3",
         link:"The Golden Blue Two Bedroom Apartment",
-        weblink:"/pages/asokoro/asokoro.html"
+        weblink:"../pages/asokoro/asokoro.html"
     },
     {
         image1:'/assets/for-rent/pexels-medhat-ayad-439227.jpg',
@@ -61,7 +61,7 @@ const all=[
         bedRoom:"1",
         bathRoom:"2",
         link:"KayZHome Condo",
-        weblink:"/pages/lifecamp/lifecamp.html"
+        weblink:"./pages/lifecamp/lifecamp.html"
     },
     {
         image1:'/assets/for-rent/pexels-pixabay-534172.jpg',
