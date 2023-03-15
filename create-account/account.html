@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="account.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <script defer src="account.js"></script>
+    <title>Sign In</title>
+</head>
+<body>
+    <div class="container">
+        <p class="head">AjeborProperty</p>
+        <form action="">
+            <p class="form-header">Create a new account</p>
+            <p class="sub-head">You're almost there!</p>
+            <hr>
+            <div class="form-control"><label for="full-name"><input type="text" required placeholder="Full Name*" id="full-name"></label></div>
+            <div class="form-control"><label for="email-address"><input type="email" required placeholder="Email Address*" id="email-address"></label></div>
+            <div class="form-control"><label for="password"><input type="password" required placeholder="Password*" id="password"></label><span id="password-span"><i class="fa-solid fa-eye"></i></span></div>
+            <!-- <a href="/forgot-password/index.html"><p class="password">Forgotten password?</p></a> -->
+            <button id="submit-button">Sign Up</button>
+            <p class="sign-in">Sign up with</p>
+            <button class="google-button"><i class="fa-brands fa-google"></i>oogle</button>
+            <!-- <div class="line1"><p class="line">or</p></div> -->
+            <p class="already">Already have an account? <span><a href="/form/index.html">Log In</a></span></p>
+            <!-- <div><a href=""><p class="small-button">create a new account</p></a></div> -->
+            <!-- <button class="small-button"></button> -->
+        </form>
+    </div>
+    <div class="fixed">
+        <span class="home"><i class="fa-solid fa-eye"></i><span>Explore</span></span>
+        <span class="deals"><i class="fa-solid fa-pen-nib"></i><span>Deals</span></span>
+        <span class="profile red-color"><i class="fa-solid fa-user red-color"></i><span>Profile</span></span>
+    </div>
+</body>
+</html>

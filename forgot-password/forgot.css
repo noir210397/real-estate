@@ -1,0 +1,172 @@
+:root{
+    --red:hsl(6,78%,57%);
+    --gray:rgb(242,244,248);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--gray);
+    height: 100vh;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    margin-block-start: 2%;
+}
+h1{
+    font-weight: 700;
+    font-size: 1.4em;
+}
+.hidden{
+    /* background-color: red; */
+    height: 4em;
+    width: 15em;
+    position: absolute;
+    right: 0;
+    display: none;
+    /* border: 1px solid black; */
+    padding: .4em;
+    border-radius: .3em;
+    background-color: white;
+}
+.fa-xmark{
+    position: absolute;
+    right: .4em;
+    z-index: 1000;
+    color: gray;
+    font-size: 1.2em;
+}
+.hidden1{
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    /* position: relative; */
+}
+.icon{
+    flex: .3;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    color: var(--red);
+}
+.hidden1 .textp{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    padding: .4em;
+    color: gray;
+}
+.text{
+    font-weight: 900;
+    color: gray;
+    font-size: 1.2em;
+    margin-top: 3.3em;
+}
+input[type="email"]{
+    width: 100%;
+    min-height: 3em;
+    margin-block: 1em;
+    padding-inline: 1em;
+    border-radius: 4px;
+    border: none;
+    border: 1.5px solid gray;
+}
+input:focus{
+    outline: none;
+    border: 2px solid black;
+}
+input[placeholder="Email Address*"]{
+    font-size: 1.2em;
+}
+button{
+    width: 100%;
+    max-width: 10em;
+    min-height: 3em;
+    /* padding: 1em; */
+    font-size: 1.1em;
+    background-color: var(--red);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+form{
+    margin-bottom: 1.5em;
+}
+.line::after,.line::before{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: gray;
+}
+.line{
+    display: grid;
+    grid-template-columns: 5fr 1fr 5fr;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+}
+.sign-in{
+    text-align: center;
+    font-size: 1.1em;
+    color: var(--red);
+    margin-top: 2em;
+}
+.sign-in a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.sign-in a:hover{
+    color: black;
+}
+/* .sign-in a:visited{
+    text-decoration: none;
+    color: var(--red);
+} */
+.fixed{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(242,244,248);
+    z-index: 1200;
+}
+.fixed>span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .7em;
+    font-size: 1.2em;
+}
+.red-color{
+    color: var(--red);
+}
+.home,.profile,.deals{
+    cursor: pointer;
+}
+@media screen and (max-width:760px) {
+    .hidden{
+        width: 100%;
+        top: 0;
+    }
+    button{
+        min-height: 2.5em;
+    }
+    input[type="email"]{
+        min-height: 2.6em;
+    }
+}
