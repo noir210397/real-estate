@@ -107,11 +107,11 @@ button{
 }
 .prev{
     left: 0;
-    background-image: url(/assets/arrow-left-solid.svg);
+    background-image: url(../assets/arrow-left-solid.svg);
 }
 .next{
     right:0;
-    background-image: url(/assets/arrow-right-solid.svg);
+    background-image: url(../assets/arrow-right-solid.svg);
 }
 h2 a{
     text-decoration: none;

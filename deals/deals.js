@@ -38,9 +38,9 @@ sale.addEventListener('click', () => {
 //rendering
 const all = [
     {
-        image1: '/assets/for-rent/pexels-jean-van-der-meulen-1457842.jpg',
-        image2: '/assets/for-rent/pexels-martin-péchy-1866149.jpg',
-        image3: "/assets/for-rent/pexels-max-rahubovskiy-6434622.jpg",
+        image1: '../assets/for-rent/pexels-jean-van-der-meulen-1457842.jpg',
+        image2: '../assets/for-rent/pexels-martin-péchy-1866149.jpg',
+        image3: "../assets/for-rent/pexels-max-rahubovskiy-6434622.jpg",
         id: "asokoro",
         location: "Asokoro, abuja, nigeria",
         price: "69,000",
@@ -50,9 +50,9 @@ const all = [
         weblink: "../pages/asokoro/asokoro.html"
     },
     {
-        image1: '/assets/for-rent/pexels-medhat-ayad-439227.jpg',
-        image2: '/assets/for-rent/pexels-pixabay-271816.jpg',
-        image3: "/assets/for-rent/pexels-pixabay-462235.jpg",
+        image1: '../assets/for-rent/pexels-medhat-ayad-439227.jpg',
+        image2: '../assets/for-rent/pexels-pixabay-271816.jpg',
+        image3: "../assets/for-rent/pexels-pixabay-462235.jpg",
         id: "lifecamp",
         location: "lifecamp, abuja, nigeria",
         price: "78,000",
@@ -62,21 +62,21 @@ const all = [
         weblink: "../pages/lifecamp/lifecamp.html"
     },
     {
-        image1: '/assets/for-rent/pexels-pixabay-534172.jpg',
-        image2: '/assets/for-rent/pexels-vecislavas-popa-1571459.jpg',
-        image3: "/assets/for-rent/pexels-vecislavas-popa-1643383.jpg",
+        image1: '../assets/for-rent/pexels-pixabay-534172.jpg',
+        image2: '../assets/for-rent/pexels-vecislavas-popa-1571459.jpg',
+        image3: "../assets/for-rent/pexels-vecislavas-popa-1643383.jpg",
         id: "gombe",
         location: "gombe state, nigeria",
         price: "77,000",
         bedRoom: "1",
         bathRoom: "1",
         link: "One Bedroom Condo",
-        weblink: "../pages/gombe/gombe.html"
+        weblink: "..../pages/gombe/gombe.html"
     },
     {
-        image1: '/assets/for-rent/pexels-victoria-akvarel-1648771.jpg',
-        image2: '/assets/for-rent/2nd/alejandra-cifre-gonzalez-5nYLmG1m5lw-unsplash.jpg',
-        image3: "/assets/for-rent/2nd/dillon-kydd-2keCPb73aQY-unsplash.jpg",
+        image1: '../assets/for-rent/pexels-victoria-akvarel-1648771.jpg',
+        image2: '../assets/for-rent/2nd/alejandra-cifre-gonzalez-5nYLmG1m5lw-unsplash.jpg',
+        image3: "../assets/for-rent/2nd/dillon-kydd-2keCPb73aQY-unsplash.jpg",
         id: "Jabi",
         location: "Jabi, abuja, nigeria",
         price: "77,000",
@@ -86,9 +86,9 @@ const all = [
         weblink: "../pages/jabi/jabi.html"
     },
     {
-        image1: '/assets/for-rent/2nd/dillon-kydd-XGvwt544g8k-unsplash.jpg',
-        image2: '/assets/for-rent/2nd/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg',
-        image3: "/assets/for-rent/2nd/pexels-jason-boyd-3209045.jpg",
+        image1: '../assets/for-rent/2nd/dillon-kydd-XGvwt544g8k-unsplash.jpg',
+        image2: '../assets/for-rent/2nd/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg',
+        image3: "../assets/for-rent/2nd/pexels-jason-boyd-3209045.jpg",
         id: "maitama",
         location: "maitama, abuja, nigeria",
         price: "65,000",
@@ -98,9 +98,9 @@ const all = [
         weblink: "../pages/maitama/maitama.html"
     },
     {
-        image1: '/assets/for-rent/2nd/pexels-lina-kivaka-3625713.jpg',
-        image2: '/assets/for-rent/2nd/r-architecture-JvQ0Q5IkeMM-unsplash.jpg',
-        image3: "/assets/for-rent/2nd/r-architecture-wDDfbanbhl8-unsplash.jpg",
+        image1: '../assets/for-rent/2nd/pexels-lina-kivaka-3625713.jpg',
+        image2: '../assets/for-rent/2nd/r-architecture-JvQ0Q5IkeMM-unsplash.jpg',
+        image3: "../assets/for-rent/2nd/r-architecture-wDDfbanbhl8-unsplash.jpg",
         id: "wuse",
         location: "wuse, abuja, nigeria",
         price: "58,000",
