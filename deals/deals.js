@@ -71,7 +71,7 @@ const all = [
         bedRoom: "1",
         bathRoom: "1",
         link: "One Bedroom Condo",
-        weblink: "..../pages/gombe/gombe.html"
+        weblink: "../pages/gombe/gombe.html"
     },
     {
         image1: '../assets/for-rent/pexels-victoria-akvarel-1648771.jpg',
