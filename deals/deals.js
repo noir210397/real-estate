@@ -158,8 +158,8 @@ function createCard(args) {
     <div class="contain-text">
         <p class="font gray-text"><span><i class="fa-solid fa-location-dot"></i></span> ${args.location}</p>
     <h2><a href="${args.weblink}">${args.link}</a></h2>
-    <p class="price font"><a href=""><span><i class="fa-solid fa-naira-sign"></i></span>${args.price} / Night</a></p>
-    <p class="font"><a href="" class="gray-text"><span><i class="fa-solid fa-bed"></i> ${args.bedRoom} Bedrooms </span><span><i class="fa-solid fa-bath"></i> ${args.bathRoom} bathrooms</span></a></p>
+    <p class="price font"><a href="${args.weblink}"><span><i class="fa-solid fa-naira-sign"></i></span>${args.price} / Night</a></p>
+    <p class="font"><a href="${args.weblink}" class="gray-text"><span><i class="fa-solid fa-bed"></i> ${args.bedRoom} Bedrooms </span><span><i class="fa-solid fa-bath"></i> ${args.bathRoom} bathrooms</span></a></p>
     </div>
     
 </div>
