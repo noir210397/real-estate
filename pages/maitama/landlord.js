@@ -1,22 +1,22 @@
-let msg=document.querySelector("#msg")
-const home=document.querySelector(".home")
-const deals=document.querySelector('.deals')
-const profile=document.querySelector('.profile')
-const backButton=document.querySelector(".back-button")
-msg.addEventListener("click",()=>{
-    let text=document.querySelector("#text").value
-    
-    window.location.href=`mailto:email@example.com?subject=Cozy 1bedroom apartment with fitted kitchenette&body=${text}`
+let msg = document.querySelector("#msg")
+const home = document.querySelector(".home")
+const deals = document.querySelector('.deals')
+const profile = document.querySelector('.profile')
+const backButton = document.querySelector(".back-button")
+msg.addEventListener("click", () => {
+    let text = document.querySelector("#text").value
+
+    window.location.href = `mailto:email@example.com?subject=Cozy 1bedroom apartment with fitted kitchenette&body=${text}`
 })
-home.addEventListener('click',()=>{
-    window.location.href="/index.html"
+home.addEventListener('click', () => {
+    window.location.href = "../../index.html"
 })
-deals.addEventListener('click',()=>{
-    window.location.href="/deals/deals.html"
+deals.addEventListener('click', () => {
+    window.location.href = "../../deals/deals.html"
 })
-profile.addEventListener('click',()=>{
-    window.location.href="/form/index.html"
+profile.addEventListener('click', () => {
+    window.location.href = "../../form/index.html"
 })
-backButton.addEventListener('click',()=>{
-    window.location.href="/pages/maitama/maitama.html"
+backButton.addEventListener('click', () => {
+    window.location.href = "./maitama.html"
 })

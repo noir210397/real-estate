@@ -1,134 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
-    <script src="app.js" defer></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <script src="./app.js" defer></script>
     <title>real-estate</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <div class="logo-part">
-             <span>Ajeboproperty</span>
+      <header>
+        <div class="logo-part">
+          <span>Ajeboproperty</span>
+        </div>
+        <nav class="bell">
+          <i class="fa-solid fa-bell"><div class="red"></div></i>
+        </nav>
+      </header>
+      <main>
+        <div class="carousel-main-wrapper">
+          <button class="prevbtn"></button>
+          <button class="nextbtn"></button>
+          <div class="carousel-wrapper">
+            <div class="slide">
+              <img
+                src="assets/bailey-anselme-Bkp3gLygyeA-unsplash.jpg"
+                alt=""
+                class="current-slide"
+              />
+              <img
+                src="assets/francesca-tosolini-XcVm8mn7NUM-unsplash.jpg"
+                alt=""
+              />
+              <img src="assets/jason-briscoe-UV81E0oXXWQ-unsplash.jpg" alt="" />
+              <img src="assets/pexels-curtis-adams-3288100.jpg" alt="" />
+              <img src="assets/pexels-curtis-adams-3288102.jpg" alt="" />
+              <img src="assets/pexels-curtis-adams-3288103.jpg" alt="" />
+              <img src="assets/pexels-pixabay-164522.jpg" alt="" />
+              <img src="assets/pexels-vecislavas-popa-1571463.jpg" alt="" />
+              <!-- <img src="" alt=""> -->
             </div>
-            <nav class="bell"><i class="fa-solid fa-bell"><div class="red"></div></i></nav>
-        </header>
-        <main>
-            <div class="carousel-main-wrapper">
-                <button class="prevbtn"></button>
-                <button class="nextbtn"></button>
-                <div class="carousel-wrapper">
-                    <div class="slide">
-                        <img src="assets/bailey-anselme-Bkp3gLygyeA-unsplash.jpg" alt="" class="current-slide">
-                        <img src="assets/francesca-tosolini-XcVm8mn7NUM-unsplash.jpg" alt="">
-                        <img src="assets/jason-briscoe-UV81E0oXXWQ-unsplash.jpg" alt="">
-                        <img src="assets/pexels-curtis-adams-3288100.jpg" alt="">
-                        <img src="assets/pexels-curtis-adams-3288102.jpg" alt="">
-                        <img src="assets/pexels-curtis-adams-3288103.jpg" alt="">
-                        <img src="assets/pexels-pixabay-164522.jpg" alt="">
-                        <img src="assets/pexels-vecislavas-popa-1571463.jpg" alt="">
-                        <!-- <img src="" alt=""> -->
-                    </div>
-                    <div class="description">
-                        <div class="text"><span class="listing">Featured Listing</span><span class="icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></div>
-                    </div>
-                </div>
+            <div class="description">
+              <div class="text">
+                <span class="listing">Featured Listing</span
+                ><span class="icons"
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                ></span>
+              </div>
             </div>
-            <div class="sec-2">
-                <p>Sell and list your property on AjeboProperty </p>
-                <p>and open your home to rental income</p>
-                <p class="solid"><a href="form/index.html">create a listing</a></p>
+          </div>
+        </div>
+        <div class="sec-2">
+          <p>Sell and list your property on AjeboProperty</p>
+          <p>and open your home to rental income</p>
+          <p class="solid"><a href="form/index.html">create a listing</a></p>
+        </div>
+        <div class="sec-3">
+          <span class="section-heading">Categories</span>
+          <div class="carousels-container">
+            <div class="carouselwrapper1">
+              <p class="top-span">Properties for rent</p>
+              <button class="carousel1-prev absolute"></button
+              ><button class="carousel1-next absolute"></button>
+              <div class="slide1">
+                <img
+                  src="assets/2nd carousel/1st/alejandra-cifre-gonzalez-ylyn5r4vxcA-unsplash.jpg"
+                  alt=""
+                  class="current-img"
+                />
+                <img
+                  src="assets/2nd carousel/1st/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.jpg"
+                  alt=""
+                />
+                <img
+                  src="assets/2nd carousel/1st/webaliser-_TPTXZd9mOo-unsplash.jpg"
+                  alt=""
+                />
+              </div>
             </div>
-            <div class="sec-3">
-                <span class="section-heading">Categories</span>
-                <div class="carousels-container">
-                    <div class="carouselwrapper1">
-                        <p class="top-span">Properties for rent</p>
-                        <button class="carousel1-prev absolute"></button><button class="carousel1-next absolute"></button>
-                        <div class="slide1">
-                            <img src="assets/2nd carousel/1st/alejandra-cifre-gonzalez-ylyn5r4vxcA-unsplash.jpg" alt="" class="current-img">
-                            <img src="assets/2nd carousel/1st/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.jpg" alt="">
-                            <img src="assets/2nd carousel/1st/webaliser-_TPTXZd9mOo-unsplash.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="carouselwrapper2">
-                        <p class="top-span">Properties for sale</p>
-                        <button class="carousel2-prev absolute"></button><button class="carousel2-next absolute"></button>
-                        <div class="slide2">
-                            <img src="assets/2nd carousel/2nd/christopher-jolly-GqbU78bdJFM-unsplash.jpg" alt="" class="current-img2">
-                            <img src="assets/2nd carousel/2nd/krzysztof-hepner-V7Q0Oh3Az-c-unsplash.jpg" alt="">
-                            <img src="assets/2nd carousel/2nd/minh-pham-OtXADkUh3-I-unsplash.jpg" alt="">
-                            <img src="assets/2nd carousel/2nd/nathan-fertig-FBXuXp57eM0-unsplash.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
+            <div class="carouselwrapper2">
+              <p class="top-span">Properties for sale</p>
+              <button class="carousel2-prev absolute"></button
+              ><button class="carousel2-next absolute"></button>
+              <div class="slide2">
+                <img
+                  src="assets/2nd carousel/2nd/christopher-jolly-GqbU78bdJFM-unsplash.jpg"
+                  alt=""
+                  class="current-img2"
+                />
+                <img
+                  src="assets/2nd carousel/2nd/krzysztof-hepner-V7Q0Oh3Az-c-unsplash.jpg"
+                  alt=""
+                />
+                <img
+                  src="assets/2nd carousel/2nd/minh-pham-OtXADkUh3-I-unsplash.jpg"
+                  alt=""
+                />
+                <img
+                  src="assets/2nd carousel/2nd/nathan-fertig-FBXuXp57eM0-unsplash.jpg"
+                  alt=""
+                />
+              </div>
             </div>
-            <div class="sec-4">
-                <span class="section-heading">What we offer you</span>
-                <div class="offers">
-                    <div class="offers-container">
-                        <i class="fa-solid fa-shield-halved"></i>
-                        <h3>Peace of mind</h3>
-                        <p>Our Book with Confidence guarantee gives you 24/7 support.</p>
-                    </div>
-                    <div class="offers-container"><i class="fa-solid fa-key"></i>
-                        <h3>All the privacy of home</h3>
-                        <p>Enjoy full kitchens, laundry, pools, yards and more</p></div>
-                    <div class="offers-container"> <i class="fa-solid fa-hippo"></i>
-                        <h3>More for less</h3>
-                        <p>More space, more privacy, more amenities — more value</p></div>
-                    <div class="offers-container">
-                        <i class="fa-solid fa-person"></i>
-                        <h3>A place for everyone</h3>
-                        <p>We stand for diversity, inclusion and families everywhere.</p>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="sec-4">
+          <span class="section-heading">What we offer you</span>
+          <div class="offers">
+            <div class="offers-container">
+              <i class="fa-solid fa-shield-halved"></i>
+              <h3>Peace of mind</h3>
+              <p>Our Book with Confidence guarantee gives you 24/7 support.</p>
             </div>
-            <div class="sec-5">
-              <!-- <div class="line"></div> -->
-                <span class="section-heading" >Where we currently have listings</span>
-                <!-- <div class="map"> -->
-                <div class="mapouter"><iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=2.0654296875000004%2C5.758105076529984%2C8.195800781250002%2C8.96104522203713&amp;layer=mapnik"></iframe></div>
-                <!-- </div> -->
-                <div class="mini">
-                    <p class="log">AjeboProperty</p>
-                    <div class="ss">
-                        <p class="head resource">Resources</p>
-                        <span>AjeboProperty</span>
-                        <span>our partners</span>
-                    </div>
-                    <div class="ss"><p class="head follow">Follow us</p>
-                        <span>Github</span>
-                        <span>Discord</span>
-                    </div>
-                    <div class="ss"><p class="head legal">Legal</p>
-                        <span>Privacy Policy</span><span>Terms & Conditions</span>
-                    </div>
-                </div>
+            <div class="offers-container">
+              <i class="fa-solid fa-key"></i>
+              <h3>All the privacy of home</h3>
+              <p>Enjoy full kitchens, laundry, pools, yards and more</p>
             </div>
-            <div class="last-sec">
-                <div class="reserved">
-                    <span class="circle-side"><i class="fa-regular fa-copyright"></i>2022</span>
-                    <span>AjeboProperty</span>
-                    <span>all rights reserved</span>
-                </div>
-                <ul class="my-list">
-                    <li><i class="fa-brands fa-facebook"></i></li>
-                    <li><i class="fa-brands fa-twitter"></i></li>
-                    <li><i class="fa-brands fa-instagram"></i></li>
-                    <li><i class="fa-brands fa-discord"></i></li>
-                </ul>
+            <div class="offers-container">
+              <i class="fa-solid fa-hippo"></i>
+              <h3>More for less</h3>
+              <p>More space, more privacy, more amenities — more value</p>
             </div>
-            <div class="fixed">
-                <span class="red-color home"><i class="fa-solid fa-eye red-color"></i><span>Explore</span></span>
-                <span class="deals"><i class="fa-solid fa-pen-nib"></i><span>Deals</span></span>
-                <span class="profile"><i class="fa-solid fa-user"></i><span>Profile</span></span>
+            <div class="offers-container">
+              <i class="fa-solid fa-person"></i>
+              <h3>A place for everyone</h3>
+              <p>We stand for diversity, inclusion and families everywhere.</p>
             </div>
-        </main>
+          </div>
+        </div>
+        <div class="sec-5">
+          <!-- <div class="line"></div> -->
+          <span class="section-heading">Where we currently have listings</span>
+          <!-- <div class="map"> -->
+          <div class="mapouter">
+            <iframe
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=2.0654296875000004%2C5.758105076529984%2C8.195800781250002%2C8.96104522203713&amp;layer=mapnik"
+            ></iframe>
+          </div>
+          <!-- </div> -->
+          <div class="mini">
+            <p class="log">AjeboProperty</p>
+            <div class="ss">
+              <p class="head resource">Resources</p>
+              <span>AjeboProperty</span>
+              <span>our partners</span>
+            </div>
+            <div class="ss">
+              <p class="head follow">Follow us</p>
+              <span>Github</span>
+              <span>Discord</span>
+            </div>
+            <div class="ss">
+              <p class="head legal">Legal</p>
+              <span>Privacy Policy</span><span>Terms & Conditions</span>
+            </div>
+          </div>
+        </div>
+        <div class="last-sec">
+          <div class="reserved">
+            <span class="circle-side"
+              ><i class="fa-regular fa-copyright"></i>2022</span
+            >
+            <span>AjeboProperty</span>
+            <span>all rights reserved</span>
+          </div>
+          <ul class="my-list">
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-discord"></i></li>
+          </ul>
+        </div>
+        <div class="fixed">
+          <span class="red-color home"
+            ><i class="fa-solid fa-eye red-color"></i><span>Explore</span></span
+          >
+          <span class="deals"
+            ><i class="fa-solid fa-pen-nib"></i><span>Deals</span></span
+          >
+          <span class="profile"
+            ><i class="fa-solid fa-user"></i><span>Profile</span></span
+          >
+        </div>
+      </main>
     </div>
-</body>
+  </body>
 </html>
