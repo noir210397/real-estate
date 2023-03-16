@@ -59,7 +59,7 @@ const all = [
         bedRoom: "1",
         bathRoom: "2",
         link: "KayZHome Condo",
-        weblink: "./pages/lifecamp/lifecamp.html"
+        weblink: "../pages/lifecamp/lifecamp.html"
     },
     {
         image1: '/assets/for-rent/pexels-pixabay-534172.jpg',
@@ -71,7 +71,7 @@ const all = [
         bedRoom: "1",
         bathRoom: "1",
         link: "One Bedroom Condo",
-        weblink: "/pages/gombe/gombe.html"
+        weblink: "../pages/gombe/gombe.html"
     },
     {
         image1: '/assets/for-rent/pexels-victoria-akvarel-1648771.jpg',
@@ -83,7 +83,7 @@ const all = [
         bedRoom: "1",
         bathRoom: "1",
         link: "Smart Studio Casa Apt. By Covina",
-        weblink: "/pages/jabi/jabi.html"
+        weblink: "../pages/jabi/jabi.html"
     },
     {
         image1: '/assets/for-rent/2nd/dillon-kydd-XGvwt544g8k-unsplash.jpg',
@@ -95,7 +95,7 @@ const all = [
         bedRoom: "1",
         bathRoom: "1",
         link: "Cozy 1bedroom apartment with fitted kitchenette",
-        weblink: "/pages/maitama/maitama.html"
+        weblink: "../pages/maitama/maitama.html"
     },
     {
         image1: '/assets/for-rent/2nd/pexels-lina-kivaka-3625713.jpg',
@@ -107,7 +107,7 @@ const all = [
         bedRoom: "1",
         bathRoom: "1",
         link: "Casa Apt. By Covina. Maitre Studio",
-        weblink: "/pages/wuse/wuse.html"
+        weblink: "../pages/wuse/wuse.html"
     }
 ]
 // let shop = ''
